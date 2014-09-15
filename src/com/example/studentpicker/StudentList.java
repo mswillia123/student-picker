@@ -25,6 +25,11 @@ public class StudentList {
 		studentList.remove(testStudent);
 		
 	}
+	public Student chooseStudent() {
+		// TODO Auto-generated method stub
+		int index = (int) (studentList.size() * Math.random());
+		return studentList.get(index);
+	}
 
 	
 	}
